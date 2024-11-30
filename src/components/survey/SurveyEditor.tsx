@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, ArrowLeft, Trash2 } from 'lucide-react';
-import { Survey, SurveyControl } from '../types/Survey';
-import { Modal } from './Modal';
+import { Survey, SurveyControl } from '../../types/Survey';
+import { Modal } from '../Modal';
 import { QuestionForm } from './QuestionForm';
 
 interface SurveyEditorProps {

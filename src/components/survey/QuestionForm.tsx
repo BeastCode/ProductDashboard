@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, X } from 'lucide-react';
-import { SurveyControl } from '../types/Survey';
+import { SurveyControl } from '../../types/Survey';
 
 interface QuestionFormProps {
   onSubmit: (control: Omit<SurveyControl, 'id' | 'order'>) => void;

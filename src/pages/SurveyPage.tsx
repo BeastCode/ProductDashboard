@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { ClipboardList, Plus } from 'lucide-react';
 import { useSurveys } from '../hooks/useSurveys';
-import { SurveyList } from '../components/SurveyList';
+import { SurveyList } from '../components/survey/SurveyList';
 import { Modal } from '../components/Modal';
 import { Survey } from '../types/Survey';
 import { surveyTemplates } from '../data/surveyTemplates';
-import { SurveyEditor } from '../components/SurveyEditor';
+import { SurveyEditor } from '../components/survey/SurveyEditor';
 
 export function SurveyPage() {
   const {

@@ -13,7 +13,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const login = useCallback(async (email: string, password: string) => {
     // Demo credentials for testing purposes
-    if (email === 'admin@productmanager.io' && password === 'ProductManager2024!') {
+    if (email === 'p@p.io' && password === 'p1') {
       setIsAuthenticated(true);
       return true;
     }

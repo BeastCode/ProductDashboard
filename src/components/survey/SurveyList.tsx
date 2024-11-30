@@ -1,6 +1,6 @@
 import React from 'react';
 import { ClipboardList, Pencil, Trash2 } from 'lucide-react';
-import { Survey } from '../types/Survey';
+import { Survey } from '../../types/Survey';
 
 interface SurveyListProps {
   surveys: Survey[];

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Pencil, Trash2, Check, X } from 'lucide-react';
-import { Product } from '../types/Product';
+import { Product } from '../../types/Product';
 
 interface ProductCardProps {
   product: Product;

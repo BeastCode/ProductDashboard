@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LogIn } from 'lucide-react';
-import { useAuth } from '../store/AuthContext';
+import { useAuth } from '../../store/AuthContext';
 
 export function LoginForm() {
   const [email, setEmail] = useState('');
@@ -13,7 +13,7 @@ export function LoginForm() {
     setError('');
     const success = await login(email, password);
     if (!success) {
-      setError('Invalid credentials. Try admin@productmanager.io / ProductManager2024!');
+      setError('Invalid credentials. Try p@p.io / p1');
     }
   };
 
